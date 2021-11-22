@@ -1,0 +1,627 @@
+/*=======================
+extra small device 
+ =======================*/
+
+ @media (max-width: 575px)
+ {
+    .navbar{
+        background-color: rgba(243, 244, 245, 0.4);
+        top: -30px !important;
+     }
+
+     .navbar-light .navbar-toggler{
+         border-color: #0066e7;
+         color: #00bbff;
+     }
+
+     .navbar .navbar-nav{
+         background: #fff;
+         text-align: center;
+     }
+
+     .navbar-expand-lg .navbar-nav .nav-link{
+         padding-left: 0 !important;
+     }
+
+
+
+ /* ============ navbar css ends ============ */
+
+	 #banner {
+		padding-bottom: 30px;
+	}
+	 #banner .person-broder::after {
+		content: '';
+		width: 210px;
+		height: 10px;
+		background: var(--brand);
+		position: absolute;
+		top: 75px;
+		left: 50px;
+		z-index: -1;
+		display: none;
+	
+	}
+	
+	#banner .banner-person::before {
+		
+		height: 333px;
+		right: 36px;
+		display: none;
+	}
+	
+	#banner .banner-person::after {
+		content: '';
+		width: 92px;
+		height: 10px;
+		position: absolute;
+		background: var(--brand2);
+		bottom: 41px;
+		right: 42px;
+		z-index: -1;
+		display: none;
+	}
+	
+	#banner .banner-person .banner-message {
+		position: absolute;
+		left: 23px;
+		top: 131px;
+		z-index: 100;
+		cursor: pointer;
+		display: none;
+	}
+
+	#banner .person-broder::before {
+		content: '';
+		width: 30px;
+		height: 210px;
+		background: var(--brand);
+		position: absolute;
+		top: 75px;
+		left: 50px;
+		z-index: -1;
+		display: none;
+	}
+
+	#banner .banner-text p {
+		color: var(--brand);
+		padding-top: 60px;
+	}
+	.fs-34 {
+		font-size: 29px !important;
+	}
+	
+	.fs-50 {
+		font-size: 36px !important;
+	}
+	
+	.fs-16 {
+		font-size: 13px !important;
+	}
+	#banner .banner-text h5 span {
+		display: inline-block;
+		margin: 4px;
+	}
+	
+	/*=================== banner css ends =================== */
+	
+	#about{
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	#about .about-person .abt-border {
+		bottom: 26px;
+		width: 100%;
+		top: 113px;
+		left: -1px;
+		display: none;
+	}
+	#about .about-text h3 {
+		color: var(--cl2);
+		margin-bottom: 25px !important;
+		margin-top: 41px;
+	}
+
+	/* ========about css end=========================== */
+
+	#service .service-item {
+		text-align: center;
+	}
+
+
+	/* ================service css ends===================== */
+	/* #portfolio{
+		padding-top: 60px;
+		padding-bottom: 60px;
+	} */
+     #portfolio .portfolio-nav .nav {
+	  flex-direction: column;
+	  align-items: center;
+    }
+	#portfolio .portfolio-nav ul li {
+		padding-right: 0 !important;
+		margin-bottom: 10px;
+	}
+
+    #portfolio .portfolio-nav ul li::after {
+	    display: none;
+     }
+
+	 #portfolio .portfolio-item {
+		 width: 100%;
+		 margin-right: 0 !important;
+		 margin-top: 30px !important;
+		 margin-bottom: 30px !important;	
+	}
+
+	#portfolio .main-item{
+		display: none;
+	}
+	
+	#portfolio .portfolio-btn{
+		text-align: center;
+	}
+
+   /* =======================portfolio css ends================== */
+
+	#work .work-item{
+		margin-bottom: 30px!important;
+	}
+
+
+/*============ work css end ================== */
+
+footer::before {
+	/* content: '';
+	width: 39%;
+	height: 1px;
+	background: #000;
+	position: absolute;
+	left: 0;
+	bottom: 100px; */
+	display: none;
+}
+
+footer::after {
+	/* content: '';
+	width: 39%;
+	height: 1px;
+	background: #000;
+	position: absolute;
+	right: 0;
+	bottom: 100px; */
+	display: none;
+}
+
+
+}  
+
+ /*=======================
+extra small device end
+ =======================*/
+
+
+
+ /*=======================
+ small device sart
+ =======================*/
+
+@media (min-width:576px) and (max-width:767px) 
+ {
+	.navbar{
+        background-color: rgba(243, 244, 245, 0.4);
+        top: -30px !important;
+     }
+
+     .navbar-light .navbar-toggler{
+         border-color: #0066e7;
+         color: #00bbff;
+     }
+
+     .navbar .navbar-nav{
+         background: #fff;
+         text-align: center;
+     }
+
+     .navbar-expand-lg .navbar-nav .nav-link{
+         padding-left: 0 !important;
+     }
+
+
+ /* ============ navbar css ends ============ */
+
+
+ #banner {
+	padding-bottom: 30px;
+ }
+
+ #banner .person-broder::after {
+	content: '';
+	width: 210px;
+	height: 10px;
+	background: var(--brand);
+	position: absolute;
+	top: 75px;
+	left: 50px;
+	z-index: -1;
+	display: none;
+ }
+
+ #banner .banner-person::before {
+	
+	height: 333px;
+	right: 36px;
+	display: none;
+ }
+
+ #banner .banner-person::after{
+	content: '';
+	width: 92px;
+	height: 10px;
+	position: absolute;
+	background: var(--brand2);
+	bottom: 41px;
+	right: 42px;
+	z-index: -1;
+	display: none;
+ }
+
+ #banner .banner-person .banner-message{
+	position: absolute;
+	left: 23px;
+	top: 131px;
+	z-index: 100;
+	cursor: pointer;
+	display: none;
+ }
+
+ #banner .person-broder::before {
+	content: '';
+	width: 30px;
+	height: 210px;
+	background: var(--brand);
+	position: absolute;
+	top: 75px;
+	left: 50px;
+	z-index: -1;
+	display: none;
+ }
+
+ #banner .banner-text p {
+	color: var(--brand);
+	padding-top: 60px;
+ }
+ .fs-34 {
+	font-size: 29px !important;
+ }
+
+ .fs-50 {
+	font-size: 36px !important;
+ }
+
+ .fs-16 {
+	font-size: 13px !important;
+ }
+ #banner .banner-text h5 span {
+	display: inline-block;
+	margin: 4px;
+ }
+
+ /*=================== banner css ends =================== */
+
+ #about .about-person .abt-border {
+	position: absolute;
+	left: -1px;
+	top: 197px;
+	z-index: -1;
+	width: 100%;
+ }
+
+ #about .about-text h3 {
+	color: var(--cl2);
+	margin-bottom: 38px !important;
+	margin-top: 60px;
+ }
+
+ /* ============================== about css end ======================================== */
+
+ #portfolio .portfolio-nav .nav {
+	flex-direction: column;
+	align-items: center;
+  }
+  #portfolio .portfolio-nav ul li {
+	  padding-right: 0 !important;
+	  margin-bottom: 10px;
+  }
+
+  #portfolio .portfolio-nav ul li::after {
+	  display: none;
+   }
+
+   #portfolio .portfolio-item {
+	width: 100%;
+	margin-right: 10px !important;
+	margin-top: 30px !important;
+	margin-bottom: 30px !important;
+ }
+
+
+  
+  /* #portfolio .main-item{
+	  display: none;
+  } */
+  
+  #portfolio .portfolio-btn{
+	  text-align: center;
+  }
+
+ /* ============================= portfolio css  end ========================= */
+
+
+ #work .work-item{
+	margin-bottom: 30px!important;
+ }
+
+
+ /*============ work css end ================== */
+
+
+ .d-flex {
+	flex-direction: column;
+ }
+
+
+ /* =================funfacet css end ============================= */
+
+ #testimonial .test-item .card-body .card-text {
+	color: var(--cl2);
+	line-height: 30px;
+	margin-bottom: 15px !important;
+	padding: 15px 12px;
+ }
+
+ /* =====================testimonial css end ================================ */
+
+ .pb-23 {
+	padding-top: 67px !important;
+ }
+
+ /* =========================== brand css ends =================================== */
+
+
+ footer::before{
+	display: none;
+ }
+ footer::after{
+	display: none;
+ }
+
+
+}
+
+
+ /*=======================
+ small device ebd
+ =======================*/
+
+
+
+
+ /*=======================
+ medium device star
+ =======================*/
+
+
+
+@media (min-width:768px) and (max-width:991px)
+{
+	.navbar{
+        background-color: rgba(243, 244, 245, 0.4);
+        top: -30px !important;
+     }
+
+     .navbar-light .navbar-toggler{
+         border-color: #0066e7;
+         color: #00bbff;
+     }
+
+     .navbar .navbar-nav{
+         background: #fff;
+         text-align: center;
+     }
+
+     .navbar-expand-lg .navbar-nav .nav-link{
+         padding-left: 0 !important;
+     }
+
+
+ /* ============ navbar css ends ============ */
+ 
+ #banner {
+	padding-bottom: 30px;
+ }
+
+ #banner .person-broder::after {
+	content: '';
+	width: 210px;
+	height: 10px;
+	background: var(--brand);
+	position: absolute;
+	top: 75px;
+	left: 50px;
+	z-index: -1;
+	display: none;
+ }
+
+ #banner .banner-person::before {
+	
+	height: 333px;
+	right: 36px;
+	display: none;
+ }
+
+ #banner .banner-person::after{
+	content: '';
+	width: 92px;
+	height: 10px;
+	position: absolute;
+	background: var(--brand2);
+	bottom: 41px;
+	right: 42px;
+	z-index: -1;
+	display: none;
+ }
+
+ #banner .banner-person .banner-message{
+	position: absolute;
+	left: 23px;
+	top: 131px;
+	z-index: 100;
+	cursor: pointer;
+	display: none;
+ }
+
+ #banner .person-broder::before {
+	content: '';
+	width: 30px;
+	height: 210px;
+	background: var(--brand);
+	position: absolute;
+	top: 75px;
+	left: 50px;
+	z-index: -1;
+	display: none;
+ }
+
+ #banner .banner-text p {
+	color: var(--brand);
+	padding-top: 167px;
+ }
+ .fs-34 {
+	font-size: 40px !important;
+ }
+
+ .fs-50 {
+	font-size: 40px !important;
+ }
+
+ .fs-16 {
+	font-size: 20px !important;
+ }
+ #banner .banner-text h5 span {
+	display: inline-block;
+	margin: 4px;
+ }
+
+ /*=================== banner css ends =================== */
+
+ #about .about-person .abt-border {
+	position: absolute;
+	left: -1px;
+	top: 267px;
+	z-index: -1;
+	width: 100%;
+ }
+
+ #about .about-text h3 {
+	color: var(--cl2);
+	margin-bottom: 38px !important;
+	margin-top: 60px;
+ }
+
+ /* ============================== about css end ======================================== */
+
+ #portfolio .portfolio-nav .nav {
+	flex-direction: column;
+	align-items: center;
+  }
+  #portfolio .portfolio-nav ul li {
+	  padding-right: 0 !important;
+	  margin-bottom: 10px;
+  }
+
+  #portfolio .portfolio-nav ul li::after {
+	  display: none;
+   }
+
+   #portfolio .portfolio-item {
+	   width: 20%;
+	   margin-right: 30px !important;
+	   margin-top: 30px !important;
+	   margin-bottom: 30px !important;	
+  }
+  
+  #portfolio .portfolio-item:last-child{
+    margin-right: 0px !important;
+ }
+
+  /* #portfolio .main-item{
+	  display: none;
+  } */
+  
+  #portfolio .portfolio-btn{
+	  text-align: center;
+  }
+
+ /* ============================= portfolio css  end ========================= */
+
+
+ #work .work-item{
+	margin-bottom: 30px!important;
+ }
+
+
+ /*============ work css end ================== */
+
+ 
+ .d-flex {
+	flex-direction: column;
+ }
+
+
+ /* =================funfacet css end ============================= */
+
+ #testimonial .test-item .card-body .card-text {
+	color: var(--cl2);
+	line-height: 30px;
+	margin-bottom: 15px !important;
+	padding: 15px 12px;
+ }
+
+ /* =====================testimonial css end ================================ */
+ .pb-23 {
+	padding-top: 67px !important;
+ }
+
+ /* =========================== brand css ends =================================== */
+
+ footer::before {
+	content: '';
+	width: 32%;
+	height: 1px;
+	background: #000;
+	position: absolute;
+	left: -8px;
+	bottom: 102px;
+}
+ 
+footer::after {
+	content: '';
+	width: 30%;
+	height: 1px;
+	background: #000;
+	position: absolute;
+	right: 0;
+	bottom: 102px;
+}
+
+/* ================= footer css ends=================== */
+
+
+}
+
+
+ /*=======================
+ medium device star
+ =======================*/
